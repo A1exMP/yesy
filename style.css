@@ -19,12 +19,13 @@ body{
 }
 .content{
   display: grid;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 220px auto;
+  column-gap: 2rem;
+
 }
 .container{
     position: relative;
     margin-top: 15px;
-    background-color: green;
 }
 .info{
     color: white;
@@ -40,7 +41,6 @@ body{
     border: 2px solid white;
 }
 .instructions{
-    background-color: tomato;
     color: white;
     display: flex;
     justify-content: top;
