@@ -2,10 +2,10 @@
 //Editar
 let objetivo = 30;
 let TextoPuntaje = "Yesys atrapadas: ";
-let TextoVictoria = "¡Ganaste!";
-let TextoDerrota = "Perdiste";
+let TextoVictoria = "¡Ganaste Yesy!";
+let TextoDerrota = "Perdiste Monga";
 const EnemyImg = "enemy.png";
-const BackgroundImg="background.jpg";
+const BackgroundImg="background.png";
 const PlayerImg ="player.png";
 const HeartImg="heart.png";
 //

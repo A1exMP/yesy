@@ -37,6 +37,7 @@ body{
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
+
 #canvas{
     border: 2px solid white;
 }
@@ -92,8 +93,10 @@ body{
     gap: 20px;
 }
 .container .menu h2{
-    font-size: 5vw;
-    color: #242739;
+    font-size: 1.7rem;
+    color:#CB4335;
+    align-items: center;
+    margin-top: 5px;
 }
 .container .menu button{
     background-color: transparent;
@@ -109,7 +112,8 @@ body{
     padding: 8px 40px;
 }
 
-@media (max-width: 600px) {
+@media
+ (max-width: 600px) {
     .controls{
 
         display: flex;
@@ -117,5 +121,9 @@ body{
     }
     .instructions{
         display: none;
+    }
+    .content {
+        grid-template-columns: auto;
+    column-gap: 0cap;
     }
 }
